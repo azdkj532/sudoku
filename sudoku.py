@@ -1,5 +1,5 @@
 f = open( "test.txt" )
-matrix = [[0 for i in range(9)] for i in range(9)]
+matrix = 9*[ 9*[0] ]
 
 for i, line in enumerate(f):
     for j, val in enumerate(line):
